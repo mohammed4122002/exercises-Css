@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      body{
+         background-color: rgba(179, 71, 71, 0.336);
+         display: flex;
+         justify-content: center;
+         gap: 10px;
+         position: relative;
+
+      }
+      div{
+         margin: 200px 0;
+         width: 20px;
+         height: 20px;
+         background-color: brown;
+         border-radius: 50%;
+         animation-name: updown;
+         animation-duration: 1.4s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;
+        
+
+        
+      }
+      .two{
+         animation-delay: 0.2s;
+      }
+      .three{
+         animation-delay: 0.4s;
+      }
+      .four{
+         animation-delay: 0.6s;
+      }
+      .five{
+         animation-delay: 0.8s;
+      }
+      .six{
+         animation-delay: 1s;
+      }
+      .seven{
+         animation-delay: 1.2s;
+      }
+      @keyframes updown {
+        
+         to{
+            background-color: rgb(127, 161, 255);
+            opacity: 0.2;
+            transform: translateY(-20px)
+         }
+         
+      }
+      h1{
+         position: absolute;
+    top: 287px;
+    lef: -69px;
+    color: #ac697f;
+
+      }
+
+
+   </style>
+</head>
+<body>
+  <div class="one"></div>
+  <div class="two"></div> 
+  <div class="three"></div>
+  <div class="four"></div>
+  <div class="five"></div>
+  <div class="six"></div>
+  <div class="seven"></div>
+  <h1>Waiting......</h1>
+</body>
+</html>
